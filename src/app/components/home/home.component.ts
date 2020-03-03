@@ -16,8 +16,8 @@ export class HomeComponent implements OnInit {
 
     this.soptify.getNewReleases()
     .subscribe( (canciones: any) => {
-      console.log(canciones.albums.items);
-      this.nuevasCanciones = canciones.albums.items;
+      console.log(canciones);
+      this.nuevasCanciones = canciones;
     });
 
   }
