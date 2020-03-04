@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { TargetsComponent } from './components/targets/targets.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
     NavbarComponent,
     NoimagePipe,
     TargetsComponent,
-    LoadingComponent
+    LoadingComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
